@@ -15,14 +15,6 @@ public class ServiceAApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceAApplication.class, args);
 
-//		new ServiceAApplication().start();
 	}
-
-//	private void start() {
-//
-//		System.out.println("calling get person using feign client");
-//		Person person = personService.getPerson();
-//		System.out.println("received person:" + person);
-//	}
 
 }
